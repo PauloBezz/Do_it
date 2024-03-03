@@ -1,7 +1,6 @@
-import { Text, View, TouchableOpacity } from  'react-native';
+import { View, } from  'react-native';
 import { styles } from './style'
-import SideBar from '../../../components/SideBar';
-import React from 'react';  
+import SideBar from '../../../components/SideBar'; 
 
 export function Home(){
 

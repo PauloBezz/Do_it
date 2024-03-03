@@ -1,5 +1,5 @@
 import { TextInput, Text, View, Image, TouchableOpacity} from "react-native";
-import { styles } from "../three/style";
+import { styles } from "./style";
 import image from '../../svg/calendar.png'
 import { useState } from "react";
 import Loading from '../../../components/Loading';
@@ -30,7 +30,6 @@ export function Three() {
                 <View style= {styles.circleTwo}/>
                 <View style= {styles.circleThree}/>
             </View>
-
 
             <Loading visible={visible}/>
             <TouchableOpacity style={styles.button} onPress={Logar}>
